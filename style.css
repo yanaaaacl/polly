@@ -1,0 +1,98 @@
+
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    background-color:#FAF6EE;
+}
+.container{
+    max-width: 1440;
+    margin: 0 auto;
+}
+.container-2{
+    max-width: 1376px;
+    margin: 0 auto;
+    
+    
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e5e5e5;
+    text-transform: uppercase;
+    font-size: 16px;
+   
+}
+.menu__two{
+    margin-right: 29px;
+}
+.menu__ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+.menu__search{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.menu__link + .menu__link{
+    padding-left: 104px;
+}
+.menu__link-search + .menu__link-search-img{
+    padding-left: 32px;
+}
+.menu__link-search-img + .menu__link-search{
+    padding-left: 14px;
+}
+.logo__img{
+    padding-left: 40px;
+    margin-top: -10px;
+    
+
+}
+.header__header{
+   text-transform: uppercase;
+}
+.header__header-h1{
+    color: #ffffff;
+    font-size: 96px;
+    line-height: 105px;
+    margin-top: -600px;
+    padding-left: 70px;
+}
+.button_1{
+    color: #111010;
+    border: 1px solid #111010;
+    border-radius: 1600px;
+    background-color: #ffdb5b;
+    padding: 16px 33px 23px 33px;
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-left: 65px;
+}
+.button_2{
+    background-color: #f1ebe4;
+    border: 1px solid #000000;
+    border-radius: 128px;
+    padding: 28px 53px 30px 53px;
+    
+}
+.button_btn{
+    margin-top: 5px;
+    margin-left: 1175px;
+
+}
+.header__text{
+    color: #111010;
+    font-size: 72px;
+    line-height: 83px;
+}
