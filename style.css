@@ -61,6 +61,7 @@ body{
 }
 .header__header{
    text-transform: uppercase;
+   border-bottom: 2px solid #e5e5e5;
 }
 .header__header-h1{
     color: #ffffff;
@@ -95,4 +96,40 @@ body{
     color: #111010;
     font-size: 72px;
     line-height: 83px;
+    padding-bottom: 60px;
+}
+.section__h2{
+    font-size: 48px;
+    line-height: 53px;
+    color: #111010;
+    text-transform: uppercase;
+}
+.bestsellers{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sale + .sale{
+    padding-left: 34px;
+}
+.price{
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color:#111010;
+}
+.section-text{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color:#111010;
+    text-transform: uppercase;
+
+}
+.price-no{
+    font-size: 15px;
+    line-height: 24px;
+    color: rgba(17, 16, 16, 0.7);
+    text-decoration: line-through;
+
 }
